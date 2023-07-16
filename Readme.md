@@ -15,4 +15,4 @@ This is a basic react todo app that takes the todo and the deadline date as inpu
 With this project the concept and usecases of "useState" and "useEffect" beacmae a lot clearer as well as how to use vanilla javascript in react. This app fully designed with bootstrap, only a very little custom css was written. This also helped a lot in getting better at using css frameworks witk react
 
 ### How to run the project
-After cloning the project, go to the project folder and type "npm install", it will install all the dependencies in the "package.json" file. The project was done using vite
+After cloning the project, go to the project folder and type "npm install" in the terminal, it will install all the dependencies in the "package.json" file. The project was done using vite
