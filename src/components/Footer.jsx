@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h5 className="text-capitalize text-light">designed using bootstrap only</h5>
-              <a href="https://github.com/S-Alif/assignments" className="text-light text-capitalize mt-3 btn btn-secondary" target="__blank">see the code</a>
+              <a href="https://github.com/S-Alif/basic-react-todo-app-wtih-bootstrap5" className="text-light text-capitalize mt-3 btn btn-secondary" target="__blank">see the code</a>
             </div>
           </div>
         </div>
