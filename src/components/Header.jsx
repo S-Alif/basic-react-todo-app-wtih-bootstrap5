@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 
+// import icons
 import { BsMoonStarsFill, BsSunFill } from "react-icons/bs";
 
 
@@ -20,12 +21,12 @@ const Header = ({ appName }) => {
     document.querySelector('html').setAttribute('data-bs-theme', mode)
   }
 
-  // save tasks on localStorage
+  // save mode on localStorage
   useEffect(() => {
     localStorage.setItem('theme', JSON.stringify(theme))
   })
 
-  // get tasks from localStorage
+  // get mode from localStorage
   useEffect(() => {
     const mode = JSON.parse(localStorage.getItem('theme'))
     if (mode) {
