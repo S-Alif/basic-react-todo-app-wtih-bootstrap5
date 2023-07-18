@@ -62,7 +62,7 @@ const List = ({todo, deleteTask, toggleDone, toggleUndone}) => {
   
   return (
     <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
-      <div className={marked=="true" ? "todo-content p-lg-3 p-2 rounded border border-2 border-success" : "todo-content p-lg-3 p-2 rounded"}>
+      <div className={marked == "true" ? "todo-content p-lg-3 p-2 rounded border border-2 border-success" : "todo-content p-lg-3 p-2 rounded border border-2"}>
         <figure>
           <blockquote className="blockquote">
         <p className="fw-medium text-start">{todo.todo}</p>
